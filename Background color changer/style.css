@@ -20,7 +20,7 @@ body{
     flex-wrap: wrap;
 }
 
-.btn{
+.btn, .random-btn{
     box-shadow: 0 0 10px;
     height: 40px;
     width: 120px;
@@ -28,11 +28,19 @@ body{
     margin-left: 20px;
     margin-bottom: 20px;
     display: inline-block;
-
     text-align: center;
     line-height: 40px;
     text-transform:uppercase;
     font-weight: 700;
     font-family: 'Times New Roman', Times, serif;
     cursor: pointer;
+    user-select: none;
+}
+
+.random-btn{
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    line-height: 100px;
+    background-color: #fff;
 }
