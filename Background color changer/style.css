@@ -43,4 +43,9 @@ body{
     border-radius: 50%;
     line-height: 100px;
     background-color: #fff;
+    border: 5px solid #121212;
+}
+
+.random-btn:active{
+    border: 5px solid #2d2d2d;
 }
